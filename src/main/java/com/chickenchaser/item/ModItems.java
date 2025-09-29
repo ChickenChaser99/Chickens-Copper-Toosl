@@ -16,11 +16,11 @@ public class ModItems {
 
     public static final DeferredItem<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel",
             () -> new ShovelItem(ChickenModToolTiers.Copper, new Item.Properties().attributes(ShovelItem.createAttributes(
-                    ChickenModToolTiers.Copper, 15f, -1f))));
+                    ChickenModToolTiers.Copper, 1f, -1f))));
 
     public static final DeferredItem<Item> COPPER_AXE = ITEMS.register("copper_axe",
             () -> new AxeItem(ChickenModToolTiers.Copper, new Item.Properties().attributes(AxeItem.createAttributes(
-                    ChickenModToolTiers.Copper, 5f, -2.6f))));
+                    ChickenModToolTiers.Copper, 4f, -2.6f))));
 
     public static final DeferredItem<Item> COPPER_HOE = ITEMS.register("copper_hoe",
             () -> new HoeItem(ChickenModToolTiers.Copper, new Item.Properties().attributes(HoeItem.createAttributes(
@@ -28,7 +28,7 @@ public class ModItems {
 
     public static final DeferredItem<Item> COPPER_SWORD = ITEMS.register("copper_sword",
             ()-> new SwordItem(ChickenModToolTiers.Copper, new Item.Properties().attributes(SwordItem.createAttributes(
-                    ChickenModToolTiers.Copper, 4f, -1f))));
+                    ChickenModToolTiers.Copper, 3f, -1f))));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
